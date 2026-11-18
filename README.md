@@ -32,12 +32,14 @@ Bienvenido a mi repositorio de proyectos de **Análisis de Datos y Visualizació
   * **Rentabilidad vs. Volumen:** *Cosmetics* (\$92.72M USD), *Office Supplies* (\$77.98M USD) y *Household* (\$72.96M USD) concentran casi la mitad de las ganancias totales, mientras que categorías de altísima rotación como *Beverages* o *Fruits* aportan márgenes reducidos.
   * **Omnicanalidad:** Participación equilibrada entre ventas *Offline* (`50.2%`) y *Online* (`49.8%`).
   * **Independencia Logística:** Correlación prácticamente nula ($r = 0.0607$) entre los días de envío (promedio de `24.78 días`) y el beneficio neto por pedido.
-* 🔗 **[Abrir cuaderno interactivo en Google Colab](https://colab.research.google.com/drive/1G6EeJQ4nEm3jKe3V5VHWfRaPCTXqF5gU)**
+[![Abrir en Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rorellanagnez64-debug/data-analytics-portfolio/blob/main/Analisis_Ventas_Globales_Python.ipynb)
 
 ---
 
-## 📂 Estructura del Repositorio
-```text
+📂 Estructura del Repositorio
+├── Data/                                   # Archivos fuente (CSV de eventos, productos y países)
+├── images/                                   # Gráficos y visualizaciones exportadas del análisis
 ├── Analisis_Ventas_Globales_Python.ipynb   # Cuaderno principal con código, gráficos e informe ejecutivo
+├── requirements.txt                        # Dependencias y librerías del proyecto
 ├── LICENSE                                 # Licencia MIT
 └── README.md                               # Documentación del portafolio
