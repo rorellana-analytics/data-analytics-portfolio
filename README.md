@@ -17,21 +17,21 @@ Bienvenido a mi repositorio de proyectos de **Análisis de Datos y Visualizació
 
 ## 🚀 Proyectos Destacados
 
-### 1. Análisis Integral de Ventas Globales y Rentabilidad (`Analisis_Ventas_Globales_Python.ipynb`)
-* **Objetivo:** Limpiar, integrar y analizar las operaciones comerciales de una empresa global que opera en canales físicos (`Offline`) y digitales (`Online`), evaluando rentabilidad, eficiencia logística y estacionalidad.
-* **Arquitectura de Datos:** Integración relacional (`merge`) de 3 fuentes de datos:
-  * `events.csv` (1,330 transacciones históricas).
-  * `products.csv` (catálogo de 12 categorías de productos).
-  * `countries.csv` (base geográfica de 249 países y regiones).
-* **Proceso Técnico Aplicado:**
-  * Auditoría y tratamiento de valores nulos (`6.17%` sin código de país etiquetados como `Unknown` e imputación por mediana en unidades vendidas).
-  * Estandarización de categorías (`"online"` → `"Online"`), restauración del código ISO de Namibia (`NA`) y validación de integridad temporal (`0` fechas invertidas).
-  * Cálculo de KPIs financieros, análisis de correlación y visualizaciones multidimensionales (`barplots`, `boxplots`, `regplots`, series temporales y mapas de calor).
-* **Principales Hallazgos de Negocio:**
-  * **Resultados Globales:** **\$1,704.56M USD** en ingresos totales y **\$501.83M USD** de beneficio neto (**margen global del 29.44%**) a través de **45 países**.
-  * **Rentabilidad vs. Volumen:** *Cosmetics* (\$92.72M USD), *Office Supplies* (\$77.98M USD) y *Household* (\$72.96M USD) concentran casi la mitad de las ganancias totales, mientras que categorías de altísima rotación como *Beverages* o *Fruits* aportan márgenes reducidos.
-  * **Omnicanalidad:** Participación equilibrada entre ventas *Offline* (`50.2%`) y *Online* (`49.8%`).
-  * **Independencia Logística:** Correlación prácticamente nula ($r = 0.0607$) entre los días de envío (promedio de `24.78 días`) y el beneficio neto por pedido.
+### 1. Análisis Integral de Ventas Globales y Rentabilidad (`Analisis_Ventas_Globales_Python.ipynb`) — Ejercicio de Práctica con Datos Ficticios
+- **Objetivo:** Limpiar, integrar y analizar un conjunto de datos ficticio / simulado (procedente de un curso finalizado) sobre operaciones en canales físicos (`Offline`) y digitales (`Online`), evaluando rentabilidad, clasificación Pareto / ABC, eficiencia logística y estacionalidad con fines demostrativos de portafolio.
+- **Arquitectura de Datos:** Integración relacional (`merge`) de 3 archivos ficticios de curso:
+  - `events.csv` (1,330 transacciones en Python frente a 1,328 en la depuración sin vacíos de hojas de cálculo).
+  - `products.csv` (catálogo de productos y categorías).
+  - `countries.csv` (base geográfica de 249 países y regiones).
+- **Proceso Técnico Aplicado:**
+  - Auditoría y tratamiento de valores faltantes (82 registros / 6.17 % sin `Country Code` etiquetados como `Unknown` e imputación de 2 nulos / 0.15 % en `Units Sold` por mediana de `Product ID`).
+  - Estandarización de categorías (`"online"` → `"Online"`), preservación del código ISO de Namibia (`NA`), neutralización de homógrafos cirílicos y validación de integridad de fechas y costos.
+  - Cálculo de KPIs, curva Pareto / ABC, análisis de correlación (`r ≈ 0.0607`) y visualizaciones multidimensionales (`barplot`, `boxplot`, `regplot`, series temporales y `heatmap`).
+- **Principales Hallazgos (Dataset Simulado):**
+  - **Métricas Globales del Ejercicio:** `\$1,704.56M USD` en ingresos y `\$501.83M USD` de beneficio neto (margen del **29.44 %**) en 45 países identificados (`df_geo`).
+  - **Rentabilidad vs. Volumen:** `Cosmetics` (`\$92.72M USD`), `Office Supplies` (`\$77.98M USD`) y `Household` (`\$72.96M USD`) concentran cerca del **48.6 %** del beneficio total, mientras que líneas de alto volumen como `Beverages` o `Fruits` muestran menor margen relativo.
+  - **Canales:** Participación equilibrada entre `Offline` (**50.2 %**) y `Online` (**49.8 %**).
+  - **Logística y Beneficio:** Correlación lineal baja (`r ≈ 0.0607`) entre días de envío (promedio de **24.78 días**) y beneficio neto por pedido.
 [![Abrir en Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rorellanagnez64-debug/data-analytics-portfolio/blob/main/Analisis_Ventas_Globales_Python.ipynb)
 
 ---
