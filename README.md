@@ -32,7 +32,7 @@ Bienvenido a mi repositorio de proyectos de **Análisis de Datos y Visualizació
   - **Rentabilidad vs. Volumen:** `Cosmetics` (`\$92.72M USD`), `Office Supplies` (`\$77.98M USD`) y `Household` (`\$72.96M USD`) concentran cerca del **48.6 %** del beneficio total, mientras que líneas de alto volumen como `Beverages` o `Fruits` muestran menor margen relativo.
   - **Canales:** Participación equilibrada entre `Offline` (**50.2 %**) y `Online` (**49.8 %**).
   - **Logística y Beneficio:** Correlación lineal baja (`r ≈ 0.0607`) entre días de envío (promedio de **24.78 días**) y beneficio neto por pedido.
-[![Abrir en Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rorellanagnez64-debug/data-analytics-portfolio/blob/main/Analisis_Ventas_Globales_Python.ipynb)
+[![Abrir en Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1G6EeJQ4nEm3jKe3V5VHWfRaPCTXqF5gU?usp=sharing)
 
 ---
 
