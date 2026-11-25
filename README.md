@@ -18,7 +18,7 @@ Bienvenido a mi repositorio de proyectos de **Análisis de Datos y Visualizació
 ## 🚀 Proyectos Destacados
 
 ### 1. Análisis Integral de Ventas Globales y Rentabilidad (`Analisis_Ventas_Globales_Python.ipynb`) — Ejercicio de Práctica con Datos Ficticios
-> **Nota de origen y transparencia de datos:** Las tablas utilizadas (`events.csv`, `products.csv` y `countries.csv`) corresponden a un conjunto de datos ficticio / simulado desarrollado y trabajado en el marco de un curso realizado en la institución Kodree, y no a registros comerciales o contables de una empresa real. Los importes elevados y las escalas de las métricas reflejan la estructura del ejercicio de práctica y no deben interpretarse como estados financieros auditados.
+> **Nota de origen y transparencia de datos:** Las tablas utilizadas (`events.csv`, `products.csv` y `countries.csv`) corresponden a un conjunto de datos ficticio / simulado desarrollado y trabajado en el marco de un curso de "Google Sheets" realizado en la institución Kodree, y no a registros comerciales o contables de una empresa real. Los importes elevados y las escalas de las métricas reflejan la estructura del ejercicio de práctica y no deben interpretarse como estados financieros auditados.
 
 - **Objetivo:** Limpiar, integrar y analizar un conjunto de datos ficticio / simulado (procedente de una práctica formativa en Kodree) sobre operaciones en canales físicos (`Offline`) y digitales (`Online`), evaluando rentabilidad, clasificación Pareto / ABC, dispersión logística y dinámica temporal con fines demostrativos de portafolio.
 - **Arquitectura de Datos:** Integración relacional (`left join` / `merge`) de 3 archivos ficticios de curso:
