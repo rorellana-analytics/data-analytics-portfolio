@@ -40,9 +40,10 @@ Archivo: `Analisis_Ventas_Globales_Python.ipynb`. El nombre conserva «Globales�
 ## 📂 Estructura
 ├── Data/ # CSV fuente (eventos, productos y países)
 ├── Images/ # Gráficos exportados
+├── .gitignore # Archivos que Git ignora
 ├── Analisis_Ventas_Globales_Python.ipynb # Cuaderno principal
-├── requirements.txt # Dependencias
 ├── LICENSE # MIT (aplica al código, no a los datos)
-└── README.md # Documentación
+├── README.md # Documentación
+└── requirements.txt # Dependencias
 
 *Los datos pertenecen a su fuente (Kodree).*
